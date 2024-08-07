@@ -1,0 +1,2174 @@
+/*Страница в разработке*/
+.block_str_raz{
+	width: 100%;
+	padding-top: 100px;
+}
+/*Страница в разработке*/
+
+/*заголовок на страницах*/
+.zagol{
+	margin-bottom: 50px;
+}
+.zg{
+	width: 100%;
+	border-bottom: 2px solid #ececec;
+}
+.zg h2{
+	color: #363636;
+	font-size: 30px;
+	font-family: OpenSansBold;
+}
+/*заголовок на страницах*/
+
+/*Заголовки на главной странице*/
+.zag{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@media (max-width: 768px) {
+.zag{
+	padding-top: 15px;
+	padding-bottom: 15px;}
+}
+.zag p{
+	font-size: 40px;
+	font-family: OpenSansBold;
+	color: #363636;
+	line-height: 40px;
+}
+@media (max-width: 768px) {
+.zag p{
+	font-size: 25px;
+	line-height: 30px;}
+}
+.zag span{
+	font-size: 30px;
+	font-family: OpenSansLight;
+	color: #c5c5c5;
+}
+@media (max-width: 768px) {
+.zag span{
+	font-size: 18px;}
+}
+/*Заголовки на главной странице*/
+
+/*Шапка сайта*/
+.heder{
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.logo{
+	float: left
+}
+.logo img{
+	width: 90%;
+	margin-top: 10px;
+}
+@media (max-width: 1199px) {
+.logo img{
+	width: 90%}
+}
+.menu{
+	float: left;
+	height: 70px;
+	line-height: 65px;
+}
+.menu_punkt{
+	font-size: 12px;
+	color: #363636;
+	text-transform: uppercase;
+	font-family: OpenSansBold;
+}
+@media (max-width: 440px) {
+.menu_punkt{
+	width: 100%;
+	float: left;}
+}
+@media (max-width: 440px) {
+.nav-link {
+	min-width: 100%;
+}
+}
+@media (max-width: 440px) {
+.nav-item {
+	min-width: 100%;
+}
+}
+.menu_punkt:hover{
+	color: #fbb900;
+	border-bottom: solid;
+	border-bottom-color: #fbb900;
+}
+.menu_punkt:active{
+	color: #000;
+}
+.menu_podpunkt{
+	font-size: 12px;
+	color: #7c7c7c;
+	text-transform: uppercase;
+	font-family: OpenSansBold;
+}
+.menu_podpunkt:hover{
+	background-color: #fcc016;
+	color: #2f2f2f;
+}
+.tel{
+	float: left;
+	height: 70px;
+	color: #363636;
+}
+@media (max-width: 1199px) {
+.tel{
+	padding-left: 50px;}
+}
+@media (max-width: 992px) {
+.tel{
+	display: none}
+}
+.tel p{
+	overflow:hidden;
+	font-family: OpenSansBold;
+	font-size: 18px;
+	text-align: right;
+}
+.tel a{
+	overflow:hidden;
+	font-family: OpenSansBold;
+	font-size: 18px;
+	text-align: right;
+	color: #000;
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.tel img{
+	margin-top: 16px;
+	margin-left: 10px;
+	float: left;
+}
+.b_partner{
+	font-size: 14px;
+	float: left;
+	height: 30px;
+	margin-top: -10px;
+	width: 100%;
+	border: 1px solid #fcc016;
+	background-color: #f9f9f9;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+.menu_mob{
+	width: 100%;
+	padding-top: 25px;
+}
+/*Шапка сайта*/
+
+/*------------------------------------------------------Страница Главная ------------------------------------------------*/
+/*Первый блок*/
+.block_one{
+	width: 100%;
+	padding-top: 112px;
+	padding-bottom: 240px;
+	overflow: hidden;
+	background: url(img/fon.png) no-repeat top;
+	background-color: #f9f9f9;
+	z-index: 1;
+}
+@media (max-width: 768px) {
+.block_one{
+	padding-top: 20px;
+	padding-bottom: 30px;}
+}
+.one_text h1{
+	font-size: 43px;
+	color: #fff;
+	line-height: 60px;
+	font-family: OpenSansExtraBold;
+}
+@media (max-width: 768px) {
+.one_text h1{
+	font-size: 30px;
+	line-height: 40px;}
+}
+.ph1{
+	font-family: OpenSansRegular;
+	font-size: 30px;
+	color: #fff;
+}
+@media (max-width: 768px) {
+.ph1{
+	font-size: 25px;}
+}
+.ph1 span{
+	color: #fbb900;
+}
+.ph2{
+	font-family: OpenSansLight;
+	font-size: 23px;
+	color: #bcbcbc;
+}
+@media (max-width: 768px) {
+.ph2{
+	font-size: 18px;}
+}
+.s_one{
+	font-size: 12px;
+	margin-top: 16px;
+	width: 40%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 768px) {
+.s_one{
+	width: 100%;}
+}
+.s_one:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_one:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Первый блок*/
+
+/*Есть готовый проект?*/
+.block_two{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 80px;
+	background-color: #fff;
+}
+.two{
+	width:100%;
+	overflow: hidden;
+}
+.forma1{}
+.forma1_p{
+	font-family: OpenSansRegular;
+	font-size: 15px;
+	text-align: center
+}
+.fr_left{
+	float: left;
+}
+.form_kont{
+	width: 100%;
+	height: 45px;
+	box-shadow: none;
+	margin-top: 15px;
+	transition: none;
+	padding: 0px;
+	color: #979797;
+	background: none repeat scroll 0 0 #fff;
+	text-shadow: none;
+	border: 1px solid #dddddd;
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+	box-shadow: 0 0px 29px rgba(1,1,1,0.1);
+}
+.form_kont_v{
+	width: 100%;
+	height: 45px;
+	box-shadow: none;
+	margin-top: 15px;
+	transition: none;
+	padding: 0px;
+	color: #979797;
+	background: none repeat scroll 0 0 #fff;
+	text-shadow: none;
+	border: 1px solid #dddddd;
+	border-radius: 25px;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+	box-shadow: 0 0px 29px rgba(1,1,1,0.1);
+}
+.form_kont:hover, .form_kont_v:hover {
+    border: 1px solid #edb618; /* Рамка при получении фокуса */
+	outline:none;
+}
+.form_kont:focus, .form_kont_v:focus {
+    border: 1px solid red; /* Рамка при получении фокуса */
+	outline:none;
+   }
+.s_vopr{
+	font-size: 12px;
+	width: 60%;
+	margin-left: 60%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 1199px) {
+.s_vopr{
+	width: 90%;
+	margin-left: 50%;}
+}
+@media (max-width: 768px) {
+.s_vopr{
+	width: 100%;
+	margin-left: 0%;
+	font-size: 10px;}
+}
+.s_vopr:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_vopr:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+.fr_right{
+	float: left;
+}
+@media (max-width: 768px) {
+.fr_right{
+	width: 80%;
+	display: none}
+}
+.form_two{
+	float: right;
+}
+/*Есть готовый проект?*/
+
+/*Коротко о нас*/
+.block_onas{
+	width: 100%;
+	overflow: hidden;
+	background-color: #363636;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.onas{
+	width: 100%;
+	overflow: hidden;
+}
+.onas_left{
+	float: left
+}
+.onas_left img{
+	width: 100%;
+}
+.onas_right{
+	float: left
+}
+.onas_right h2{
+	font-family: OpenSansBold;
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.onasp{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	color: #cfcfcf;
+}
+.onasp1{
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #878787;
+}
+/*Коротко о нас*/
+
+/*Каталог*/
+.block_katalog{
+	width: 100;
+	overflow: hidden;
+	padding-bottom: 50px;
+	background-color: #f9f9f9;
+}
+.katalog{
+	width: 100;
+	overflow: hidden;
+}
+.kat{
+	float: left;
+}
+.kart{
+	width: 100%;
+	background-color: #f9f9f9;
+	box-shadow: 0 0 15px rgba(1,1,1,0.1);
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+.kart img{
+	float: right;
+	margin-bottom: 30px;
+}
+.kart h2{
+	font-family: OpenSansExtraBold;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+@media (max-width: 768px) {
+.kart img{
+	width: 90%;}
+}
+@media (max-width: 768px) {
+.kart h2{
+	width: 100%;}
+}
+.yarl{
+	-webkit-transform: rotate(-90deg); /*Chrome, Safari*/
+	-moz-transform: rotate(-90deg); /*Firefox*/
+	-o-transform: rotate(-90deg); /*Opera*/
+	-ms-transform: rotate(-90deg); /*IE*/
+	transform: rotate(-90deg); /*браузеры без префексов*/
+	background-color: #e6aa04;
+	position: absolute;
+	color: #fff;
+	font-family: OpenSansBold;
+	font-size: 12px;
+	line-height: 20px;
+	height: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	margin-left: -18px;
+	margin-top: 5px;
+}
+.b_kart{
+	font-size: 15px;
+	margin-top: 16px;
+	width: 60%;
+	margin-left: 20%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #f9f9f9;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 1199px) {
+.b_kart{
+	height: 40px;}
+}
+.b_kart:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.b_kart:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Каталог*/
+
+/*От идеи - до воплощения*/
+.block_idea{
+	width: 100%;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.idea{
+	width: 100%;
+	overflow: hidden;
+}
+.ide{
+	width: 100%;
+	margin-top: 50px;
+}
+.clide{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.clid{
+	width: 100%;
+	overflow: hidden;
+}
+.clid_l{
+	float: left;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.cl_l{
+	width: 100%;
+	height: 330px;
+	box-shadow: 0 0px 18px rgba(1,1,1,0.1);
+}
+.cl_l iframe{
+	width: 100%;
+	height: 75%;
+}
+.cl_l img{
+	width: 100%;
+	height: 100%;
+}
+.cl_l p{
+	font-family: OpenSansBold;
+	font-size: 15px;
+	color: #363636;
+	line-height: 1px;
+	margin-top: 10px;
+}
+@media (max-width: 1199px) {
+.cl_l p{
+	font-size: 13px;}
+}
+.cl_l span{
+	font-family: OpenSansRegular;
+	font-size: 14px;
+	color: #ababab;
+}
+.clid_r{
+	float: left;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.cl_r{
+	width: 100%;
+	height: 330px;
+}
+.cl_r img{
+	width: 100%;
+	height: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  	position: absolute;
+  	z-index: 1;
+	bottom: 25px;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-align: center;
+  	align-items: center;
+  	-ms-flex-pack: center;
+  	justify-content: center;
+	font-family: OpenSansBold;
+	height: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+  	color: #ababab;
+  	text-align: center;
+  	opacity: 1;
+  	transition: opacity 0.15s ease;
+}
+.carousel-indicators li {
+  	box-sizing: content-box;
+  	-ms-flex: 0 1 auto;
+  	flex: 0 1 auto;
+  	width: 19px;
+ 	height: 19px;
+	background: url(img/pag1.png);
+  	margin-right: 3px;
+  	margin-left: 3px;
+  	text-indent: -999px;
+  	cursor: pointer;
+  	background-clip: padding-box;
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	transition: opacity 0.6s ease;
+}
+@media (max-width: 768px) {
+.carousel-indicators li {
+	display: none
+}
+}
+.carousel-indicators li.active {
+	width: 19px;
+ 	height: 19px;
+	background: url(img/pag.png) no-repeat;
+}
+/*От идеи - до воплощения*/
+
+/*Контроль каждого этапа*/
+.block_kontrol{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.kontrol{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+@media (max-width: 1199px) {
+.kontrol{
+	padding-bottom: 10px;}
+}
+.kontrol_l{
+	height: 200px;
+	float: left;
+	z-index: 2;
+}
+@media (max-width: 1199px) {
+.kontrol_l{
+	height: 350px;}
+}
+
+.kontrol_l h2{
+	font-family: OpenSansBold;
+	font-size: 31px;
+	color: #363636;
+}
+@media (max-width: 1199px) {
+.kontrol_l h2{
+	font-size: 23px;}
+}
+.kont_l_text{
+	width: 117%;
+	overflow: hidden;
+	float: left;
+	background-color: #fff;
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-shadow: 0 0px 15px rgba(1,1,1,0.1);
+}
+@media (max-width: 992px) {
+.kont_l_text{
+	width: 100%;
+	margin-top: 10px;}
+}
+.kont_l_text p{
+	font-family: OpenSansRegular;
+	font-size: 18px;
+	color: #929292;
+	overflow: hidden;
+}
+.kont_l_text img{
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.kontrol_r{
+	height: 421px;
+	float: left;
+	z-index: 1;
+}
+.kontrol_r img{
+	width: 100%;
+}
+@media (max-width: 1199px) {
+.kontrol_r{
+	height: 100%;
+	overflow: hidden;}
+}
+.kontrol_r iframe{
+	width: 100%;
+	height: 100%;
+}
+@media (max-width: 1199px) {
+.kontrol_r iframe{
+	height: 100%;}
+}
+@media (max-width: 768px) {
+.kontrol_r iframe{
+	width: 100%;
+	height: 300px;}
+}
+/*Контроль каждого этапа*/
+
+/*Доверить заказ нам*/
+.blosk_vibor{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+.vibor{
+	width: 100%;
+	overflow: hidden;
+}
+.vib{
+	float: left
+}
+@media (max-width: 1199px) {
+.vib{
+	margin-bottom: 20px;}
+}
+.vb{
+	width: 100%;
+	background-color: #fbb900;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.vb img{
+	margin-bottom: 20px;
+}
+.vb h2{
+	font-family: OpenSansBold;
+	font-size: 21px;
+	text-align: center
+}
+.vb p{
+	font-family: OpenSansRegular;
+	font-size: 17px;
+	text-align: center
+}
+/*Доверить заказ нам*/
+
+/*Рабботаем слажено и гордимся работой*/
+.block_gord{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.gord{
+	width: 100%;
+	overflow: hidden;
+}
+.gor{
+	overflow: hidden;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.gor_left{
+	float: left;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.str{
+	float: right;
+	margin-top: 10vh;
+	margin-right: 20px;
+}
+@media (max-width: 1199px) {
+.str{
+	display: none}
+}
+.gr_lt{
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	background-color: #f9f9f9;
+	height: 200px;
+	padding-left: 0px;
+	padding-right: 0px;
+	box-shadow: 0 0 20px rgba(1,1,1,0.1);
+}
+.gr_lt p{
+	font-family: OpenSansBold;
+	font-size: 15px;
+	color: #363636;
+	text-transform: uppercase;
+}
+.gr_lt img{
+	margin-bottom: 10px;
+}
+.gor_right{
+	float: left;
+	overflow: hidden;
+	margin-top: 10px;
+	background-color: #fff;
+	height: 200px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-shadow: 0 0 15px rgba(1,1,1,0.1);
+}
+@media (max-width: 768px) {
+.gor_right{
+	height: auto;}
+}
+.gor_right p{
+	font-family: OpenSansRegular;
+	font-size: 15px;
+	color: #929292;
+}
+@media (max-width: 1199px) {
+.gor_right p{
+	font-size: 13px;}
+}
+.yarl1{
+	float: left;
+	width: 80%;
+	padding-top: 30px;
+}
+.yarl2{
+	float: left;
+	width: 20%;
+	background-color: #363636;
+}
+@media (max-width: 1199px) {
+.yarl2{
+	height: 100%;}
+}
+.yarl2 p{
+	-webkit-transform: rotate(-90deg); /*Chrome, Safari*/
+	-moz-transform: rotate(-90deg); /*Firefox*/
+	-o-transform: rotate(-90deg); /*Opera*/
+	-ms-transform: rotate(-90deg); /*IE*/
+	transform: rotate(-90deg); /*браузеры без префексов*/
+	color: #fff;
+	font-family: OpenSansBold;
+	font-size: 10px;
+	line-height: 20vh;
+	width: 100%;
+}
+@media (max-width: 1199px) {
+.yarl2 p{
+	font-size: 8px;
+	line-height: 25vh;}
+}
+.b_gr_lt{
+	font-size: 12px;
+	margin-top: 16px;
+	width: 80%;
+	height: 40px;
+	border: 1px solid #fcc016;
+	background-color: #fff;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+.b_gr_lt:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.b_gr_lt:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+.s_gord{
+	font-size: 12px;
+	margin-top: 16px;
+	width: 30%;
+	height: 50px;
+	margin-left: 35%;
+	border: 1px solid #fbb900;
+	background-color: #fbb900;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 768px) {
+.s_gord{
+	width: 100%;
+	margin-left: 0%;}
+}
+.s_gord:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_gord:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Рабботаем слажено и гордимся работой*/
+
+/*Заказ можно оплатить удобным для вас способом*/
+.blosk_oplata{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+.oplata{
+	width: 100%;
+	overflow: hidden;
+}
+.opl{
+	float: left;
+}
+.op{
+	width: 100%;
+	height: 360px;
+	background-color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@media (max-width: 1199px) {
+.op{
+	margin-bottom: 12px;}
+}
+@media (max-width: 768px) {
+.op{
+	height: auto;}
+}
+.op img{
+	margin-bottom: 20px;
+}
+@media (max-width: 1199px) {
+.sb{
+	width: 40%;}
+}
+.op h2{
+	font-family: OpenSansBold;
+	font-size: 21px;
+	text-align: center
+}
+.op p{
+	font-family: OpenSansRegular;
+	font-size: 17px;
+	text-align: center
+}
+.op span{
+	font-family: OpenSansBold;
+	font-size: 50px;
+	text-align: center;
+	color: #fbb900
+}
+.b_op{
+	font-size: 15px;
+	margin-top: 16px;
+	width: 60%;
+	height: 40px;
+	border: 1px solid #fcc016;
+	background-color: #f9f9f9;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 1199px) {
+.b_op{
+	width: 80%;}
+}
+.b_op:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.b_op:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Заказ можно оплатить удобным для вас способом*/
+
+/*Нет проекта? сделаем*/
+.block_ban{
+	width: 100%;
+	padding-top: 50px;
+	overflow: hidden;
+}
+@media (max-width: 1199px) {
+.block_ban{
+	padding-bottom: 50px;}
+}
+.ban{
+	width: 100%;
+	overflow: hidden;
+}
+.ban_l{
+	float: left;
+	overflow: hidden;
+}
+.fotog{}
+@media (max-width: 1199px) {
+.fotog{
+	display: none;}
+}
+.fotog1{
+	display: none;
+}
+@media (max-width: 1199px) {
+.fotog1{
+	display: block}
+}
+@media (max-width: 768px) {
+.fotog1{
+	display: none;}
+}
+.ban_r{
+	float: left;
+	overflow: hidden;
+}
+.ban_r h2{
+	font-family: OpenSansBold;
+	font-size: 40px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+@media (max-width: 1199px) {
+.ban_r h2{
+	font-size: 35px;}
+}
+@media (max-width: 768px) {
+.ban_r h2{
+	font-size: 25px;}
+}
+.ban_r h2 span{
+	color: #fbb900;
+}
+.ban_r p{
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #919191;
+	margin-bottom: 40px;
+}
+.ban_r p span{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	color: #fff;
+}
+.otpravka{
+	width: 100%;
+	height: 50px;
+}
+.form_ban_tel{
+	width: 65%;
+	height: 50px;
+	float: left;
+	border: 2px solid #fff;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+@media (max-width: 1199px) {
+.form_ban_tel{
+	width: 60%;}
+}
+@media (max-width: 768px) {
+.form_ban_tel{
+	width: 100%;
+	border-radius: 30px;
+	margin-bottom: 15px;}
+}
+.s_ban{
+	font-size: 15px;
+	width: 35%;
+	height: 50px;
+	float: left;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 30px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 1199px) {
+.s_ban{
+	width: 40%;}
+}
+@media (max-width: 768px) {
+.s_ban{
+	font-size: 10px;
+	width: 100%;
+	border-radius: 30px;}
+}
+.s_ban:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_ban:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+.ban_r h3{
+	font-family: OpenSansRegular;
+	font-size: 15px;
+	color: #cfcfcf;
+	margin-top: 50px;
+}
+.ban_r h3 span{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	color: #cfcfcf;
+}
+.block_obr_kat{
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+.s_obr_kat{
+	font-size: 12px;
+	margin-top: 16px;
+	width: 30%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 1199px) {
+.s_obr_kat{
+	width: 50%;}
+}
+.s_obr_kat:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_obr_kat:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Нет проекта? сделаем*/
+
+/*Команда*/
+.block_komanda{
+	width: 100%;
+	overflow: hidden;
+}
+.block_komanda img{
+	width: 100%;
+}
+/*Команда*/
+
+/*Подвал*/
+footer{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 70px;
+	background-color: #f9f9f9;
+	position:relative;
+}
+.foot{
+	width: 100%;
+	overflow: hidden;
+}
+.fot_info{
+	float: left;
+}
+.info{
+	width: 100%;
+}
+.info p{
+	font-family: OpenSansRegular;
+	font-size: 13px;
+	color: #8d8d8d;
+}
+.info img{
+	width: 90%;
+	margin-bottom: 30px;
+}
+@media (max-width: 1199px) {
+.info img{
+	width: 50%;}
+}
+.fot_menu{
+	float: left;
+}
+.menu_footer{
+	margin-left: 25%;
+}
+@media (max-width: 768px) {
+.menu_footer{
+	margin-left: 0%;}
+}
+.menu_footer a{
+	font-family: OpenSansBold;
+	font-size: 12px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #979797
+}
+.menu_footer a:hover{
+	color: #fcc016
+}
+.fot_karta{
+	float: left;
+}
+.karta{
+	width: 100%;
+}
+.fot_tel{
+	float: left;
+}
+@media (max-width: 1199px) {
+.fot_tel{
+	text-align: right}
+}
+.fot_tel p{
+	font-family: OpenSansBold;
+	font-size: 20px;
+}
+.fot_tel a{
+	font-family: OpenSansRegular;
+	font-size: 12px;
+	color: #e6ab05
+}
+.fot_tel img{
+	float: right;
+	margin-left: 15px;
+}
+.cop{
+	font-family: OpenSansRegular;
+	font-size: 13px;
+	color: #979797
+}
+/*Подвал*/
+/*------------------------------------------------------Страница Главная ------------------------------------------------*/
+
+
+/*------------------------------------------------------Страница гардеробные ------------------------------------------------*/
+/*Первый блок ГАРДЕРОБНЫЕ*/
+.block_one_gar{
+	width: 100%;
+	padding-top: 112px;
+	padding-bottom: 175px;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+@media (max-width: 768px) {
+.block_one_gar{
+	padding-top: 40px;
+	padding-bottom: 40px;}
+}
+.one_text_gar h1{
+	font-size: 43px;
+	color: #fff;
+	line-height: 60px;
+	font-family: OpenSansExtraBold;
+}
+@media (max-width: 768px) {
+.one_text_gar h1{
+	font-size: 30px;
+	line-height: 40px;}
+}
+.ph1_gar{
+	font-family: OpenSansRegular;
+	font-size: 30px;
+	color: #fff;
+}
+@media (max-width: 768px) {
+.ph1_gar{
+	font-size: 18px;}
+}
+.ph1_gar span{
+	color: #fbb900;
+}
+.ph2_gar{
+	font-family: OpenSansLight;
+	font-size: 23px;
+	color: #bcbcbc;
+}
+@media (max-width: 768px) {
+.ph2_gar{
+	font-size: 17px;}
+}
+.ph2_gar img{
+	margin-top: -5px;
+	margin-right: 15px;
+}
+.s_one_gar{
+	font-size: 12px;
+	margin-top: 16px;
+	width: 40%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 768px) {
+.s_one_gar{
+	width: 100%;}
+}
+.s_one_gar:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_one:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Первый блок ГАРДЕРОБНЫЕ*/
+
+/*Гардеробная геометрия*/
+.block_gar_geo{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.gar_geo{
+	width: 100%;
+	overflow: hidden;	
+}
+.gar_l{
+	float: left;
+	overflow: hidden;
+}
+.gar_l img{
+	float: left;
+	margin-right: 15px;
+	margin-top: 5px;
+}
+.gar_l h2{
+	font-family: OpenSansBold;
+	font-size: 30px;
+	color: #363636;
+	margin-bottom: 30px;
+}
+.gar_l p{
+	font-family: OpenSansRegular;
+	font-size: 18px;
+	color: #929292;
+	overflow: hidden;
+}
+@media (max-width: 1200px) {
+.gar_l p{
+	font-size: 15px;}
+}
+.gar_r{
+	float: left;
+	overflow: hidden;
+}
+.gar_r iframe{
+	width: 100%;
+	height: 350px;
+}
+.gar_r img{
+	width: 100%;
+}
+/*Гардеробная геометрия*/
+
+/*Основа гардеробной*/
+.block_kontrol_gar{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f9f9f9;
+}
+/*Основа гардероба*/
+
+/*Проект гардеробной - бесплатно*/
+.block_gar_besp{
+	width: 100%;
+	overflow: hidden;
+	background-color: #363636;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.gar_besp{
+	width: 100%;
+	overflow: hidden;
+}
+.besp_l{
+	float: left;
+	overflow: hidden;
+}
+.forma_besp{
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #fbb900;
+}
+.forma_besp h2{
+	font-family: OpenSansBold;
+	font-size: 20px;
+}
+@media (max-width: 768px) {
+.forma_besp h2{
+	font-size: 15px;}
+}
+.forma_besp h2 span{
+	color: #fbb900;
+}
+.forma_besp p{
+	font-family: OpenSansRegular;
+	font-size: 18px;
+	color: #919191;
+}
+@media (max-width: 768px) {
+.forma_besp p{
+	font-size: 14px;}
+}
+.s_besp{
+	font-size: 12px;
+	width: 60%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 1199px) {
+.s_besp{
+	width: 90%;
+	margin-left: 5%;}
+}
+@media (max-width: 768px) {
+.s_besp{
+	width: 100%;
+	margin-left: 0%;
+	font-size: 10px;}
+}
+.s_besp:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_besp:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+.besp_r{
+	float: left;
+	overflow: hidden;
+}
+.besp_r h2{
+	font-family: OpenSansBold;
+	font-size: 40px;
+	color: #fff;
+}
+@media (max-width: 768px) {
+.besp_r h2{
+	font-size: 25px;}
+}
+.besp_r h2 span{
+	color: #fbb900;
+}
+.besp_r p{
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #919191;
+}
+@media (max-width: 768px) {
+.besp_r p{
+	font-size: 16px;}
+}
+.besp_r p span{
+	color: #fff;
+	font-family: OpenSansBold;
+}
+/*Проект гардеробной - бесплатно*/
+
+/*Блок акция на гардеробе*/
+.block_sale{
+	width: 100%;
+	overflow: hidden;
+}
+.sale{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.akc{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: url(img/fon_form.png);
+	box-shadow: 0 0 25px rgba(1,1,1,0.1);
+}
+.sal{
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+	border: 1px solid #fbb900;
+}
+.sal_l{
+	float: left
+}
+@media (max-width: 1199px) {
+.sal_l img{
+	width: 100%;}
+}
+.sal_r{
+	float: left
+}
+.forma_sale{
+	width: 100%;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.forma_sale h2{
+	font-family: OpenSansBold;
+	font-size: 20px;
+}
+@media (max-width: 768px) {
+.forma_sale h2{
+	font-size: 16px;}
+}
+.forma_sale h2 span{
+	color: #fbb900;
+}
+.forma_sale p{
+	font-family: OpenSansRegular;
+	font-size: 18px;
+	color: #919191;
+}
+@media (max-width: 768px) {
+.forma_sale p{
+	font-size: 15px;}
+}
+.s_sale{
+	font-size: 12px;
+	width: 60%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 1199px) {
+.s_sale{
+	width: 90%;
+	margin-left: 5%;}
+}
+@media (max-width: 768px) {
+.s_sale{
+	width: 100%;
+	margin-left: 0%;
+	font-size: 10px;}
+}
+.s_sale:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_sale:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Блок акция на гардеробе*/
+
+/*Фотогалерея*/
+.block_gal{
+	width: 100%;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.gal{
+	width: 100%;
+	overflow: hidden;
+}
+.gl{
+	width: 100%;
+	margin-top: 50px;
+}
+.clide_gal{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+.clid_gal{
+	width: 100%;
+	overflow: hidden;
+}
+.clid_gal img{
+	width: 33%;
+	float: left;
+	margin-bottom: 3px;
+	margin-right: 0.5%
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  	position: absolute;
+  	z-index: 1;
+	bottom: 25px;
+  	display: -ms-flexbox;
+  	display: flex;
+  	-ms-flex-align: center;
+  	align-items: center;
+  	-ms-flex-pack: center;
+  	justify-content: center;
+	font-family: OpenSansBold;
+	height: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+  	color: #ababab;
+  	text-align: center;
+  	opacity: 1;
+  	transition: opacity 0.15s ease;
+}
+.carousel-indicators li {
+  	box-sizing: content-box;
+  	-ms-flex: 0 1 auto;
+  	flex: 0 1 auto;
+  	width: 19px;
+ 	height: 19px;
+	background: url(img/pag1.png);
+  	margin-right: 3px;
+  	margin-left: 3px;
+  	text-indent: -999px;
+  	cursor: pointer;
+  	background-clip: padding-box;
+  	border-top: 10px solid transparent;
+  	border-bottom: 10px solid transparent;
+  	transition: opacity 0.6s ease;
+}
+.carousel-indicators li.active {
+	width: 19px;
+ 	height: 19px;
+	background: url(img/pag.png) no-repeat;
+}
+.fotogal{
+	width: 100%;
+}
+.fotogal img{
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+ 
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+ 
+        .thumb {
+            padding: 5px;
+        }
+/*Фотогалерея*/
+/*------------------------------------------------------Страница гардеробные ------------------------------------------------*/
+
+
+
+/*------------------------------------------------------Страница Отзывы ------------------------------------------------*/
+/*Первый блок отзывы*/
+.block_one_otz{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.one_otz{
+	width: 100%;
+	overflow: hidden;
+}
+.onbl{
+	width: 100%;
+	overflow: hidden;
+}
+.onbl img{
+	width: 100%;
+	z-index: 1;
+	float: left
+}
+.ramkaotz{
+	width: 30%;
+	height: 150px;
+	margin-top: -150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgb(0,0,0,0.5);
+	z-index: 2;
+	float: left
+}
+.ramkaotz p{
+	font-family: OpenSansRegular;
+	font-size: 18px;
+	color: #fff;
+	float: left
+}
+.ramkaotz span{
+	font-family: OpenSansBold;
+}
+.otz_img{
+	width: 100%;
+	margin-top: 20px;
+	overflow: hidden;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.otz_i{
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 0 0 15px rgba(1,1,1,0.1);
+}
+@media (max-width: 992px) {gar_r
+.otz_i{
+	padding-top: 10px;}
+}
+.otz_i img{
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+@media (max-width: 992px) {
+.i_otz{
+	float: left;
+	width: 40%;}
+}
+.otz_i p{
+	font-family: OpenSansBold;
+	font-size: 15px;
+	color: #363636;
+	line-height: 1px;
+	margin-top: -5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+@media (max-width: 992px) {
+.otz_i p{
+	float: left;
+	overflow: hidden;
+	}
+}
+.otz_i span{
+	font-family: OpenSansRegular;
+	font-size: 14px;
+	color: #ababab;
+}
+#button {
+  cursor: pointer;
+}
+.s_one_otz{
+	font-size: 14px;
+	margin-top: 16px;
+	width: 20%;
+	text-align: center;
+	margin-left: 40%;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	float: left;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 768px) {
+.s_one_otz{
+	width: 60%;}
+}
+.s_one_otz:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_one_otz:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Первый блок отзывы*/
+
+/*второй блок отзывы*/
+.block_otz_plos{
+	width: 100%;
+	overflow: hidden;
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+}
+.block_otz_plos{
+	width: 100%;
+	overflow: hidden;
+}
+.plos{
+	float: left;
+}
+.pl{
+	background-color: #fff;
+	height: 380px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	box-shadow: 0 0 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 1200px) {
+.pl{
+	height: 480px;}
+}
+@media (max-width: 992px) {
+.pl{
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 20px;}
+}
+.plo{
+	overflow: hidden;
+}
+.plo img{
+	float: left;
+	margin-right: 20px;
+}
+.plo p{
+	overflow: hidden;
+	font-family: OpenSansRegular;
+	font-size: 14px;
+}
+.plo p span{
+	font-family: OpenSansBold;
+	font-size: 20px;
+	color: #363636;
+}
+.plo_text{
+	padding-top: 20px;
+}
+.plo_text p{
+	font-family: OpenSansRegular;
+	font-size: 15px;
+	color: #929292;
+}
+.plo_text p span{
+	font-family: OpenSansBold;
+	font-size: 15px;
+	color: #363636;
+}
+/*второй блок отзывы*/
+/*------------------------------------------------------Страница Отзывы ------------------------------------------------*/
+
+/*------------------------------------------------------Страница Контакты------------------------------------------------*/
+/*первый блок контакты*/
+.block_contact{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #fff;
+}
+.contact{}
+.contact_l{
+	float: left
+}
+.contact_r{
+	float: left
+}
+.cont_r p{
+	font-family: OpenSansRegular;
+	font-size: 15px;
+	color: #929292;
+	overflow: hidden;
+}
+.cont_r span{
+	font-family: OpenSansBold;
+	font-size: 16px;
+	color: #363636;
+}
+.cont_r img{
+	float: left;
+	margin-right: 20px;
+}
+/*первый блок контакты*/
+/*------------------------------------------------------Страница Контакты------------------------------------------------*/
+
+/*Модальное окно*/
+.modal-content{
+	background-color: #f7f7f7; 
+	border-radius: 0px; 
+	text-align: center; 
+	top: 20vh;
+}
+@media (max-width: 420px) {
+.modal-content{
+	top: 0vh;}
+}
+.modal-content h3{
+	font-family: OpenSansBold;
+	font-size: 35px;
+	color: #2f2f2f;
+}
+.modal-content p{
+	font-family: OpenSansLight;
+	font-size: 21px;
+	color: #979797;
+}
+.name_win{
+	width: 80%;
+	height: 45px;
+	box-shadow: none;
+	margin-top: 15px;
+	transition: none;
+	padding: 0px;
+	color: #979797;
+	background: none repeat scroll 0 0 #fff;
+	text-shadow: none;
+	border: 1px solid #979797;
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+}
+.phone_win{
+	width: 80%;
+	height: 45px; 
+	margin-top: 15px; 
+	box-shadow: none;
+	transition: none;
+	padding: 0px;
+	color: #979797;
+	background: none repeat scroll 0 0 #fff;
+	text-shadow: none;
+	border: 1px solid #979797;
+	border-radius: 1000px;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+}
+.sub_win{
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 50px;
+	margin-top: 39px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 1px solid #fcc016;
+	float: left;
+}
+.sub_win:hover{
+	border: 1px solid #ffcc3b;
+}
+.sub_win:active{
+	border: 1px solid #e8ad07;
+}
+.s_win{
+	font-size: 12px;
+	width: 97%;
+	margin-left: 0.8%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+.s_win:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_win:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+/*Модальное окно*/
+
+/**/
+.block_konstruktor{
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+/**/
+
+/*Страница партнерам*/
+.block_KDT{
+	width: 100%;
+	background-color: #f9f9f9;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+.stanki{
+	float: left;
+	margin-bottom: 30px;
+}
+.stan{
+	width: 100%;
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.stan img{
+	width: 50%;
+	float: left;
+	margin-right: 30px;
+}
+.stan p{
+	overflow: hidden;
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #929292;
+	margin-top: 70px;
+}
+.block_partzav{
+	background-color: #363636;
+}
+.partzav{
+	width: 100%;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: url(img/fon_form.png);
+	box-shadow: 0 0 25px rgba(1,1,1,0.1);
+}
+.form_part{
+	width: 100%;
+	height: 45px;
+	box-shadow: none;
+	margin-top: 15px;
+	transition: none;
+	padding: 0px;
+	color: #979797;
+	background: none repeat scroll 0 0 #fff;
+	text-shadow: none;
+	border: 1px solid #dddddd;
+	border-radius: 100px;
+	font-size: 14px;
+	font-family: OpenSansRegular;
+	box-shadow: 0 0px 29px rgba(1,1,1,0.1);
+}
+.form_part:hover{
+    border: 1px solid #edb618; /* Рамка при получении фокуса */
+	outline:none;
+}
+.form_part:focus{
+    border: 1px solid red; /* Рамка при получении фокуса */
+	outline:none;
+   }
+.s_part{
+	font-size: 12px;
+	width: 30%;
+	margin-left: 35%;
+	height: 50px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	color: #2f2f2f;
+	outline: 0 !important;
+}
+@media (max-width: 1199px) {
+.s_part{
+	width: 50%;
+	margin-left: 25%;}
+}
+@media (max-width: 768px) {
+.s_part{
+	width: 100%;
+	margin-left: 0%;
+	font-size: 10px;}
+}
+.s_part:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+}
+.s_part:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
+.block_stoim{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.block_stoim table td{
+	padding: 15px;
+	font-family: OpenSansLight;
+	font-size: 18px;
+	color: #929292;
+}
+.block_stoim table tr{
+	border-bottom: 2px dotted #f5f5f5;
+}
+.card{
+	border-left-color: #fff;
+	border-right-color: #fff;
+}
+.card-header{
+	background-color: #fff;
+	border-bottom-color: #fff;
+}
+.card-header button{
+	font-family: OpenSansBold;
+	color: #363636;
+	font-size: 15px;
+}
+/*Страница партнерам*/
+
+.back_to_top {
+  position: fixed;
+  bottom: 80px;
+  left: 40px;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+  display: none;
+}
+.back_to_top-show {
+  display: block;
+}
+.konstr{
+	text-align: center;
+}
+.b_konstr{
+	font-size: 15px;
+	margin-top: 16px;
+	width: 30%;
+	height: 50px;
+	padding: 15px;
+	border: 1px solid #fcc016;
+	background-color: #fcc016;
+	font-family: OpenSansBold;
+	border-radius: 50px;
+	color: #2f2f2f;
+	outline: 0 !important;
+	box-shadow: 0 13px 29px rgba(1,1,1,0.1);
+}
+@media (max-width: 1199px) {
+.b_konstr{
+	height: 40px;}
+}
+@media (max-width: 768px) {
+.b_konstr{
+	width: 100%;}
+}
+.b_konstr:hover{
+	border: 1px solid #ffcc3b;
+	background-color: #ffcc3b;
+	text-decoration: none;
+	color: #2f2f2f;
+}
+.b_konstr:active{
+	border: 1px solid #e8ad07;
+	background-color: #e8ad07;
+}
